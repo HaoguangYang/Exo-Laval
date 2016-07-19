@@ -38,12 +38,24 @@
 
 /* Private define ------------------------------------------------------------*/
 
-#define ENCODER_DAT_1_Pin GPIO_PIN_12
-#define ENCODER_DAT_1_GPIO_Port GPIOD
-#define ENCODER_CLK_1_Pin GPIO_PIN_8
-#define ENCODER_CLK_1_GPIO_Port GPIOC
-#define ENCODER_CSn_1_Pin GPIO_PIN_9
-#define ENCODER_CSn_1_GPIO_Port GPIOC
+#define ENCODER_DAT_2_Pin GPIO_PIN_14
+#define ENCODER_DAT_2_GPIO_Port GPIOD
+#define ENCODER_CLK_2_Pin GPIO_PIN_15
+#define ENCODER_CLK_2_GPIO_Port GPIOD
+#define ENCODER_CSn_2_Pin GPIO_PIN_6
+#define ENCODER_CSn_2_GPIO_Port GPIOC
+#define ENCODER_DAT_1_Pin GPIO_PIN_8
+#define ENCODER_DAT_1_GPIO_Port GPIOA
+#define ENCODER_CLK_1_Pin GPIO_PIN_9
+#define ENCODER_CLK_1_GPIO_Port GPIOA
+#define ENCODER_CSn_1_Pin GPIO_PIN_10
+#define ENCODER_CSn_1_GPIO_Port GPIOA
+#define MOTOR_DIR_1_Pin GPIO_PIN_9
+#define MOTOR_DIR_1_GPIO_Port GPIOB
+#define MOTOR_STEP_1_Pin GPIO_PIN_0
+#define MOTOR_STEP_1_GPIO_Port GPIOE
+#define MOTOR_EN_1_Pin GPIO_PIN_1
+#define MOTOR_EN_1_GPIO_Port GPIOE
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

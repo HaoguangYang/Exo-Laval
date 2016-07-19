@@ -3,8 +3,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: 'f4_usart' 
- * Target:  'f4_usart' 
+ * Project: 'testPID' 
+ * Target:  'testPID' 
  */
 
 #ifndef RTE_COMPONENTS_H

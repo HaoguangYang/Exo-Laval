@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"testpid\stm32f4xx_hal_msp.o"
+"testpid\stm32f4xx_it.o"
+"testpid\main.o"
+"testpid\startup_stm32f407xx.o"
+"testpid\stm32f4xx_hal_uart.o"
+"testpid\stm32f4xx_hal_rcc_ex.o"
+"testpid\stm32f4xx_hal_dma.o"
+"testpid\stm32f4xx_hal_pwr.o"
+"testpid\stm32f4xx_hal_flash_ex.o"
+"testpid\stm32f4xx_hal_dma_ex.o"
+"testpid\stm32f4xx_hal_tim_ex.o"
+"testpid\stm32f4xx_hal_flash.o"
+"testpid\stm32f4xx_hal_pwr_ex.o"
+"testpid\stm32f4xx_hal.o"
+"testpid\stm32f4xx_hal_cortex.o"
+"testpid\stm32f4xx_hal_rcc.o"
+"testpid\stm32f4xx_hal_gpio.o"
+"testpid\stm32f4xx_hal_tim.o"
+"testpid\stm32f4xx_hal_flash_ramfunc.o"
+"testpid\system_stm32f4xx.o"
+"testpid\arm_pid_init_f32.o"
+"testpid\arm_pid_reset_f32.o"
+--library_type=microlib --strict --scatter "testPID\testPID.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "testPID.map" -o testPID\testPID.axf
